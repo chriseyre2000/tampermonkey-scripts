@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       @chriseyre2000
 // @match        https://codurance.com/about-us/our-people/
+// @updateURL    https://github.com/chriseyre2000/tampermonkey-scripts/blob/master/count-codurance.js
 // @grant        none
 // ==/UserScript==
 
