@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Count Codurance Staff
 // @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
-// @author       @chriseyre2000
+// @version      0.3
+// @description  Adds a count to our people page!
+// @author       You
 // @match        https://codurance.com/about-us/our-people/
 // @updateURL    https://github.com/chriseyre2000/tampermonkey-scripts/blob/master/count-codurance.js
 // @grant        none
@@ -11,5 +11,5 @@
 
 (function() {
     'use strict';
-    $('div.u-heading-v2-3--bottom h2').text( 'The Team (' + $('div.g-max-width-800').length + ')'  );
+    $('h1').text( 'Our People (' + $('div.g-max-width-800').length + ')'  );
 })();
